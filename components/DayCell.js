@@ -95,8 +95,7 @@ const DayCell = ({
             <motion.div 
               layoutId={`note-${date.getTime()}`}
               className={cn(
-                "w-1 md:w-1.5 h-1 md:h-1.5 rounded-full",
-                isSelectedStart || isSelectedEnd ? "bg-white" : "bg-primary-400"
+                "w-1 md:w-1.5 h-1 md:h-1.5 rounded-full -mt-3.5 md:-mt-4 ml-4.5 md:ml-12  bg-primary-400"
               )} 
             />
           )}

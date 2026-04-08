@@ -81,9 +81,6 @@ const HeroSection = ({ currentMonth }) => {
           animate={{ x: 0, opacity: 1 }}
           className="hidden md:flex flex-col items-end text-right"
         >
-          <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-xl mb-3">
-             <span className="text-black font-black text-2xl italic">W</span>
-          </div>
           <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white/60">Premium Edition</span>
           <span className="text-3xl font-black text-white tracking-tighter italic">{format(currentMonth, 'yyyy')}</span>
         </motion.div>
